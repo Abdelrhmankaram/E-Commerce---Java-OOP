@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class product {
+public class product implements shippable {
     String name; // name of product
     double weight; // weight of the product in gm
     int quantity; // quantity available 
